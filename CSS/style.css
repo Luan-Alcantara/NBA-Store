@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#header-top{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #000;
+}
+
+#header-top img{
+    width: 50px;
+    margin-left: 30px;
+}
+
+.title-logo{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#search-bar input{
+    position: absolute;
+    margin: 40px auto 0px 180px;
+    padding: 10px;
+    height: 40px;
+    width: 450px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.material-symbols-outlined{
+    cursor: pointer;
+    position: relative;
+    margin: 47px 0px 0px 630px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.material-symbols-outlined:hover{
+    color: #f0ebeb;
+}
+#shopping-cart{
+    cursor: pointer;
+    margin: 25px 0px 0px 20px;
+    font-size: 45px;
+    color: #fff;
+}
+
+#shopping-cart a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#shopping-cart a:hover{
+    color: #f53202;
+}
+
+#login{
+    margin: 40px 0px 0px 100px;
+}
+
+#login a{
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    transition: .3 ease;
+}
+
+#login a:hover{
+    color: #eeeaea;
+    text-decoration: underline;
+}
+
+#nav-bar{
+    background-color: #1439b3;
+}
+
+#nav-bar ul{
+    display: flex;
+    height: 35px;
+}
+
+#nav-bar li{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    align-items: center;
+    padding-left: 6px;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 14px;
+}
+
+#nav-bar li:hover{
+    background-color: #2c4cb8;
+}
+
+/* Fim do header */
+
+/* Container principal */
+#shoes-image{
+    float: left;
+    width: 65%;
+}
+
+#shoes-image img{
+    width: 600px;
+    margin-left: 40px;
+}
+
+#price{
+    float: right;
+    width: 35%;
+    margin-top: 70px;
+}
+
+#price p, h2{
+    padding-bottom: 15px;
+}
+
+#price h2{
+    font-size: 20px;
+}
+
+#price span{
+    color: #038d0a;
+}
+
+#price h3{
+    padding: 30px 0px 20px 0px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+#shoes-size p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#shoes-size td{
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid;
+    padding: 12px;
+}
+
+#shoes-size td:hover{
+    background-color: #e9e5e5;
+}
+
+/* .title-color{
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#white{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ffbb01;
+    border-radius: 50%;
+    background-color: #f3f2f2;
+}
+
+.color{
+    padding: 5px 0px 0px 4px;
+} */
+
+#color-choose p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#color-choose ul{
+    display: flex;
+}
+
+#color-choose li{
+    cursor: pointer;
+    list-style: none;
+    margin-left: 10px;
+}
+
+.black{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ff6701;
+    box-shadow: 2px 2px 1px #ff6701;
+    border-radius: 50%;
+    background-color: #050505;
+}
+
+.white{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ff6701;
+    box-shadow: 2px 2px 1px #ff6701;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.gray{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ff6701;
+    box-shadow: 2px 2px 1px #ff6701;
+    border-radius: 50%;
+    background-color: #d3c7c7;
+}
+
+.title-color{
+    color: #000;
+}
+
+#shoes-quantity p{
+    font-size: 16px;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+#shoes-quantity button{
+    cursor: pointer;
+    height: 40px;
+    width: 220px;
+    margin: 0px 0px 20px 20px;
+    background-color: #e61a4d;
+    border: none;
+    box-shadow: #bb103b 2px 2px;
+    font-size: 15px;
+    color: #fff;
+}
+#shoes-quantity button:hover{
+    background-color: #bb103b;
+}
+
+#shoes-quantity select{
+    cursor: pointer;
+    height: 30px;
+    width: 60px;
+}

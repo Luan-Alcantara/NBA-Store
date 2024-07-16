@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel = "stylesheet" href = "/CSS/styleCart.css">
+</head>
+<body>
+    <header>
+        <div id="header-container">
+            <div id="header-top">
+                <div id="logo">
+                    <img src = "/Image/logo.jpeg">
+                    <span class = "title-logo">nba store</span>
+                </div>
+                <div id="search-bar">
+                    <input type = "text" placeholder = "Search">
+                    <i class="material-symbols-outlined">Search</i>
+                </div>
+                <div id="login">
+                    <a href = "#">Sign up</a>
+                    <a href = "#">Help</a>
+                </div>
+                <div id = "shopping-cart">
+                    <a href = "/HTML/Index.html"><i class="fi fi-brands-dribbble"></i></a>
+                </div>
+            </div>
+            <div id="header-bottom">
+                <nav id = "nav-bar">
+                    <ul>
+                        <li>shop by team</li>
+                        <li>men</li>
+                        <li>women</li>
+                        <li>kids</li>
+                        <li>jerseys</li>
+                        <li>t-shirts</li>
+                        <li>hats</li>
+                        <li>hardwood</li>
+                        <li>footwear</li>
+                        <li>accessories</li>
+                        <li>collectibles</li>
+                        <li>sale</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div id = "main-container">
+            <div id = "product-container">
+                <h2>Your Items</h2>
+                <div class = "line-separate"></div>
+                <div id = "product">
+                    <img src = "/Image/shoes_gray_cart.jpeg">
+                    <div id = "description">
+                        <p class ="title-product">Youth jordan Brand Gray Tatum 1 Basketball Shoes</p>
+                        <div id = "description-product">
+                            <label>Size</label>
+                            <input type = "number" placeholder = "6.5">
+                            <label>Quantity</label>
+                            <input type = "number" placeholder = "1">
+                        </div>
+                        <p class = "description-delivery">This item ships within one business day</p>
+                    </div>
+                    <div id = "icon-remove">
+                        <i class="fi fi-br-cross"></i>
+                    </div>
+                </div>
+                <div class = "line-separate"></div>
+            </div>
+            <div id = "summary-container">
+                <div id = "title-sumary">
+                    <h3>Order Summary</h3>
+                </div>
+                <div class = "line-separate-summary"></div>
+                <div id = "item-total">
+                    <span class = "item">Item Total</span>
+                    <span class = "description-item">$90.00</span>
+                </div>
+                <div id = "cart-total">
+                    <span class = "total-buy">Cart Total</span>
+                    <span class = "cart-price">$90.00</span>
+                </div>
+                <div id="submit-buy">
+                    <button>Checkout</button>
+                </div>
+                <div id = "continue-shopping">
+                    <a href = "/HTML/Index.html">Continue shopping</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Store</title>
+    <link rel = "stylesheet" href = "/CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css'>
+    <script src = "/JavaScript/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="header-container">
+            <div id="header-top">
+                <div id="logo">
+                    <img src = "/Image/logo.jpeg">
+                    <span class = "title-logo">nba store</span>
+                </div>
+                <div id="search-bar">
+                    <input type = "text" placeholder = "Search">
+                    <i class="material-symbols-outlined">Search</i>
+                </div>
+                <div id="login">
+                    <a href = "#">Sign up</a>
+                    <a href = "#">Help</a>
+                </div>
+                <div id = "shopping-cart">
+                    <a href = "/HTML/cart.html"><i class="fi fi-brands-dribbble"></i></a>
+                </div>
+            </div>
+            <div id="header-bottom">
+                <nav id = "nav-bar">
+                    <ul>
+                        <li>shop by team</li>
+                        <li>men</li>
+                        <li>women</li>
+                        <li>kids</li>
+                        <li>jerseys</li>
+                        <li>t-shirts</li>
+                        <li>hats</li>
+                        <li>hardwood</li>
+                        <li>footwear</li>
+                        <li>accessories</li>
+                        <li>collectibles</li>
+                        <li>sale</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="main-container">
+            <div id="shoes-image">
+                <img src = "/Image/shoes_black.jpeg" class = "image">
+            </div>
+            <div id="price">
+                <div id="title-price">
+                    <p>Officially Licensed Gear</p>
+                    <h2>Men's jordan brand White Tatum 2 Basketball Shoes</h2>
+                    <span>In Stock - This ships within one business day.</span>
+                    <h3>Your Price <b>$120.00</b></h3>
+                </div>
+                <div id="shoes-size">
+                    <p>Size</p>
+                    <table>
+                        <tr>
+                            <td>3.5</td>
+                            <td>4</td>
+                            <td>4.5</td>
+                            <td>5</td>
+                            <td>5.5</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>6.5</td>
+                            <td>7</td>
+                            <td>7.5</td>
+                            <td>8</td>
+                            <td>8.5</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>9.5</td>
+                            <td>10</td>
+                            <td>10.5</td>
+                            <td>11</td>
+                            <td>11.5</td>
+                            <td>12</td>
+                        </tr>
+                        <tr>
+                            <td>12.5</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id = "color-choose">
+                    <p class = "title-color">Color</p>
+                    <ul>
+                        <li>
+                            <span class = "color"></span>
+                            <p class = "black" onclick = "mudar('/Image/shoes_black.jpeg')"></p>
+                        </li>
+                        <li>
+                            <span class = "color"></span>
+                            <p class = "white" onclick = "mudar('/Image/shoes_white.jpeg')"></p>
+                        </li>
+                        
+                        <li>
+                            <span class = "color"></span>
+                            <p class = "gray" onclick = "mudar('/Image/shoes_gray.jpeg')"></p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="shoes-quantity">
+                    <p>Quantity</p>
+                    <select>
+                        <option select>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>+10</option>
+                    </select>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
